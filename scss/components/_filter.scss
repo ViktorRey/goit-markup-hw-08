@@ -1,0 +1,46 @@
+.button-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  
+  &__list {
+    @media screen and (max-width: 768px) {
+      margin-bottom: 16px;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    justify-content: center;
+  }
+
+  &__list:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  &__active {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    border: none;
+  
+    min-width: 73px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: center;
+    transition-property: background-color, color, drop-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-hover);
+      color: var(--white-color-hero);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+}
+
+
