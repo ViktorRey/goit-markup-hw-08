@@ -78,7 +78,7 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .tell-menu {
     position: fixed;
     padding: 48px 40px;
@@ -923,7 +923,7 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-@media screen and (max-width: 1200px) and (max-width: 768px) {
+@media screen and (max-width: 1200px) and (max-width: 767px) {
   .footer-title {
     margin-top: 60px;
   }
@@ -978,7 +978,7 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-connect__text {
     margin-top: 20px;
   }
@@ -1054,7 +1054,7 @@ img {
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .button-item__list {
     margin-bottom: 16px;
   }
